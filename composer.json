@@ -1,0 +1,32 @@
+{
+  "name": "alibabacloud/sdk_data_1598238000612-test",
+  "description": "Alibaba Cloud SDK_DATA_1598238000612 SDK Library for PHP",
+  "type": "library",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Alibaba Cloud SDK",
+      "email": "sdk-team@alibabacloud.com"
+    }
+  ],
+  "require": {
+    "php": ">5.5",
+    "alibabacloud/tea-utils": "^0.2.0",
+    "alibabacloud/ding-util": "^0.0.1",
+    "alibabacloud/darabonba-url": "^0.0.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "AlibabaCloud\\SDK\\SDK_DATA_1598238000612\\": "src"
+    }
+  },
+  "scripts": {
+    "fixer": "php-cs-fixer fix ./"
+  },
+  "config": {
+    "sort-packages": true,
+    "preferred-install": "dist",
+    "optimize-autoloader": true
+  },
+  "prefer-stable": true
+}
